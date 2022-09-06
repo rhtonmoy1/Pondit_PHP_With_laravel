@@ -1,12 +1,9 @@
 <?php
 // instance of class
-include_once './src/Calculator/Basic/Calculator.php';
-include_once './src/Calculator/Scientific/Calculator.php';
+// include_once './src/Calculator/Basic/Calculator.php';
+// include_once './src/Calculator/Scientific/Calculator.php';
 
-// include_once './vendor/autoload.php';
-
-// use \Tonmoy\Calculator\Basic\Calculator as BasicCalculator;
-// use \Tonmoy\Calculator\Scientific\Calculator as ScientificCalculator;
+include_once './vendor/autoload.php';
 
 use \Tonmoy\Calculator\Basic\Calculator as BasicCalculator;
 use \Tonmoy\Calculator\Scientific\Calculator as ScientificCalculator;
