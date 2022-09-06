@@ -1,5 +1,10 @@
 {
     "name": "rhton/pondit_php_with_laravel",
+    
+    "autoload": {
+        "psr-4": {"Acme\\": "src/"}
+        
+    },
     "authors": [
         {
             "name": "Rafiul Hasan Tonmoy",
