@@ -1,0 +1,24 @@
+<?php
+class Claculator{
+    $number1;
+    $number2;
+    public function sum(){
+        return $this.number1 + $this.number2;
+    }
+    public function sub(){
+        return $this.number1 - $this.number2;
+    }
+    public function mul(){
+        return $this.number1 * $this.number2;
+    }
+    public function div(){
+        return $this.number1 / $this.number2;
+    }
+}
+
+$calculatorObj = new Calculator(20,10);
+
+echo $claculatorObk -> sum();
+echo $claculatorObk -> sub();
+echo $claculatorObk -> mul();
+echo $claculatorObk -> div();
